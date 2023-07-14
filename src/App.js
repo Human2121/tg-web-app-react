@@ -6,13 +6,10 @@ function App() {
     useEffect(() => {
         tg.ready();
     }, [])
-    const onClose = () => {
 
-    }
   return (
     <div className="App">
       words
-        <button onClick={onClose}> Закрыть</button>
     </div>
   );
 }
